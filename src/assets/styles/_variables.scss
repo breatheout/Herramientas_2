@@ -1,0 +1,66 @@
+@use "sass:color";
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$font-family-serif: "Georgia", "Times New Roman", serif;
+
+$white: #ffffff;
+$snow: #fffafa;
+$grey: #3a3939;
+$light-grey: #777676;
+$pink: #dd2d77;
+$orange: #ff9d00;
+
+$color-gradient1: rgb(107, 26, 107);
+$color-gradient2: rgba(167, 48, 97, 0.966);
+$color-gradient3: rgb(252, 142, 69);
+
+$header-background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23ff9d00' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23fb8d17' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23f47d24' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23ed6e2d' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23e35f34' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23d85239' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23cc453e' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23be3941' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23b02f43' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23a02644' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23901e44' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23801843' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%236f1341' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%235e0f3d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%234e0c38' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%233e0933' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%232e062c' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23210024' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+
+$gradient-background: linear-gradient(
+    22.5deg,
+    rgba(67, 67, 67, 0.02) 0%,
+    rgba(67, 67, 67, 0.02) 29%,
+    rgba(47, 47, 47, 0.02) 29%,
+    rgba(47, 47, 47, 0.02) 37%,
+    rgba(23, 23, 23, 0.02) 37%,
+    rgba(23, 23, 23, 0.02) 55%,
+    rgba(182, 182, 182, 0.02) 55%,
+    rgba(182, 182, 182, 0.02) 69%,
+    rgba(27, 27, 27, 0.02) 69%,
+    rgba(27, 27, 27, 0.02) 71%,
+    rgba(250, 250, 250, 0.02) 71%,
+    rgba(250, 250, 250, 0.02) 100%
+  ),
+  linear-gradient(
+    67.5deg,
+    rgba(117, 117, 117, 0.02) 0%,
+    rgba(117, 117, 117, 0.02) 14%,
+    rgba(199, 199, 199, 0.02) 14%,
+    rgba(199, 199, 199, 0.02) 40%,
+    rgba(33, 33, 33, 0.02) 40%,
+    rgba(33, 33, 33, 0.02) 48%,
+    rgba(135, 135, 135, 0.02) 48%,
+    rgba(135, 135, 135, 0.02) 60%,
+    rgba(148, 148, 148, 0.02) 60%,
+    rgba(148, 148, 148, 0.02) 95%,
+    rgba(53, 53, 53, 0.02) 95%,
+    rgba(53, 53, 53, 0.02) 100%
+  ),
+  linear-gradient(
+    135deg,
+    rgba(190, 190, 190, 0.02) 0%,
+    rgba(190, 190, 190, 0.02) 6%,
+    rgba(251, 251, 251, 0.02) 6%,
+    rgba(251, 251, 251, 0.02) 18%,
+    rgba(2, 2, 2, 0.02) 18%,
+    rgba(2, 2, 2, 0.02) 27%,
+    rgba(253, 253, 253, 0.02) 27%,
+    rgba(253, 253, 253, 0.02) 49%,
+    rgba(128, 128, 128, 0.02) 49%,
+    rgba(128, 128, 128, 0.02) 76%,
+    rgba(150, 150, 150, 0.02) 76%,
+    rgba(150, 150, 150, 0.02) 100%
+  ),
+  linear-gradient(90deg, #ffffff, #ffffff);
